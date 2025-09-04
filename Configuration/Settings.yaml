@@ -1,0 +1,11 @@
+CodeQ:
+  OAuthSymfonyMailer:
+    mailer:
+      dsn: ''
+    office365OAuthTokenProvider:
+      # Microsoft 365 tenant ID
+      tenant: ''
+      # Application (client) ID
+      clientId: ''
+      # Client secret
+      clientSecret: ''

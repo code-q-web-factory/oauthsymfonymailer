@@ -1,0 +1,21 @@
+{
+    "name": "codeq/oauthsymfonymailer",
+    "type": "neos-package",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "neos/flow": "^7.0 || ^8.0 || dev-master",
+        "symfony/mailer": "*",
+        "guzzlehttp/uri-template": "*",
+        "nyholm/psr7": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeQ\\OAuthSymfonyMailer\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "CodeQ.OAuthSymfonyMailer"
+        }
+    }
+}

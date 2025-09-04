@@ -1,0 +1,2 @@
+Symfony\Component\Mailer\Transport\Smtp\EsmtpTransportFactory:
+  scope: singleton
